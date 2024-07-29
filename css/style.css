@@ -1,0 +1,456 @@
+.firstline
+{
+    background-color: #323747;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 10px;
+    
+    
+}
+.balajimain
+{
+    color: rgb(43, 226, 165);
+    font-size: 55px;
+    font-weight: bold;
+}
+
+
+.navmain:hover
+{
+   
+    border-radius: 5px;
+}
+.navmain{ 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    text-align: center;
+  }
+  .navmain{ 
+    display: table-cell; 
+    position: relative; 
+    padding: 10px 0;
+  }
+  .navmain{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.19em;
+    display: inline-block;
+    padding: 5px 5px;
+    position: relative;
+  }
+  .navmain:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .navmain:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  
+  /* Nav Baar Hover End */
+
+.navmain2
+{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.welcom
+{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px;
+   
+}
+.welcom2
+{
+    color: rgb(255, 174, 0);
+    font-size: 35px;
+    font-weight: bold;
+    
+   
+ 
+    
+}
+.my-3 {
+    margin-top: 1rem !important;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+div 
+{
+    display: block;
+    unicode-bidi: isolate;
+}
+/*  maain page ka hai ye Fetaurs */
+
+
+.heading-grid {
+  margin-bottom: 6em;
+}
+
+.banner-bottom span.fa {
+  font-size: 30px;
+  color: black;
+}
+
+.inner-info h4 {
+  text-transform: capitalize;
+  font-size: 19px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+/* Fetaurs  end hai*/
+
+/* about kaa hai*/
+
+.section-middle {
+  background-color: #323747;
+  
+
+}
+
+.section-middle .about-text-grid1 h3 {
+  color: #eee;
+  max-width: 430px;
+}
+
+.section-middle h4 {
+  text-transform: uppercase;
+  color: #eee;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.section-middle h4 span {
+  width: 60px;
+  height: 2px;
+  background: #fff;
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-right: 15px;
+}
+
+.about-text-grid1 a {
+  background: none;
+  padding: 13px 30px;
+  display: inline-block;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+
+}
+/* middle */
+/*-- //middle-section --*/
+.about-right p {
+  color: #fff;
+}
+/* footer */
+
+hr {
+  border-top: 1px solid rgba(251, 247, 247, 0.1);
+}
+
+.layer.footer-1 {
+  min-height: 28em;
+  background: rgba(0, 0, 0, 0.82);
+}
+
+.footer-top-inner-world {
+  padding: 5em 2em 3em 2em;
+}
+
+.footer-content h2 a {
+  text-transform: capitalize;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: white;
+}
+
+/* footer grids */
+
+ul.list-info-hello {
+  list-style: none;
+}
+.footerv3-top p {
+  font-size: 1em;
+  color: #a3b1bf;
+  margin: 1em 0;
+  line-height: 1.5em;
+}
+
+.footer p a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.last-world-contact p {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 0.85em;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.footer-top p {
+  padding-right: 6em;
+  color: #fff;
+}
+
+.last-world-contact p a:hover {
+  color: #15b915;
+}
+
+.list-info-hello li a {
+  color: #fff;
+  font-size: 0.85em;
+  letter-spacing: 1px;
+}
+
+.list-info-hello li a:hover {
+  opacity: 0.8;
+}
+
+h3.hello_title {
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.last-world-contact a {
+  color: #fff;
+}
+
+.world-icons li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+.world-icons li a span {
+  color: #fff;
+}
+
+.world-icons li a span:hover {
+  color: skyblue;
+}
+
+/* //footer */
+.footer-text input[type="email"] {
+  outline: none;
+  padding: 12px 15px;
+  color: #fff;
+  font-size: 13px;
+  width: 85%;
+  border: none;
+
+}
+
+.newsletter {
+  position: relative;
+  margin-top: 2em;
+}
+
+button.btn1 {
+  color: #808080;
+  border: none;
+  padding: 10px 0;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  cursor: pointer;
+  transition: 0.5s all;
+  float: right;
+  width: 15%;
+}
+
+.footer-text form {
+  border: 1px solid #808080;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.footer-text p {
+  color: #fff;
+}
+
+/* copyright */
+
+p.copy-right-grids {
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+p.copy-right-grids a {
+  color: #fff;
+}
+
+/* //copyright */
+
+a.move-top {
+  text-align: center;
+}
+
+a.move-top span {
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  border: transparent;
+  line-height: 2em;
+  background: #626c733b;
+  border-radius: 5px;
+  
+}
+
+/*-- //footer --*/
+.contact .icons-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.contact .icons-container .icons {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: #f5f5f5;
+  margin-bottom: 2rem;
+}
+
+.contact .icons-container .icons i {
+  height: 6.5rem;
+  width: 6.5rem;
+  line-height: 6.5rem;
+  font-size: 2.5rem;
+  color: #224bcf;
+  background: #e9edfb;
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+.contact .icons-container .icons h3 {
+  font-size: 2rem;
+  color: #302851;
+  padding: .7rem 0;
+}
+
+.contact .icons-container .icons p {
+  line-height: 2;
+  font-size: 1.4rem;
+  color: #666;
+}
+
+.contact .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.contact .row form {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
+  border-radius: 1rem;
+  background: #f5f5f5;
+  padding: 2rem;
+}
+
+.contact .row form h3 {
+  font-size: 2.5rem;
+  color: #302851;
+  margin-bottom: .5rem;
+}
+
+.contact .row form .box,
+.contact .row form textarea {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  font-size: 1.6rem;
+  color: #666;
+  text-transform: none;
+  margin: 1rem 0;
+  border-radius: .5rem;
+  background: #fff;
+}
+
+.contact .row form textarea {
+  height: 15rem;
+  resize: none;
+}
+
+.contact .row .map {
+  
+  flex: 1 1 42rem;
+  width: 100%;
+  border-radius: 1rem;
+} 
+/* stdent data css */
+
+.containerbackcolor{  
+  padding: 50px;  
+background-color: skyblue;  
+}  
+
+
+input[type=text], input[type=password], textarea {  
+width: 100%;  
+padding: 15px;  
+margin: 5px 0 22px 0;  
+display: inline-block;  
+border: none;  
+background: #f1f1f1;  
+}  
+
+
+hr {  
+border: 1px solid #f1f1f1;  
+margin-bottom: 25px;  
+}  
+.registerbtn {  
+background-color: rgba(0, 0, 0, 0.753);  
+color: white;  
+padding: 15px 20px;  
+margin: 5px 0;  
+border: none;  
+cursor: pointer;  
+width: 160px;  
+opacity: 0.9;  
+}  
+.registerbtn:hover {  
+background-color: green;
+
+}  
+/* student data css end hai  */
+
+
+
+
+

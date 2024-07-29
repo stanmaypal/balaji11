@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Inquiry Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .inquiry-form {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 800px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .inquiry-form h1 {
+            text-align: left;
+            color: red;
+        }
+        .inquiry-form h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .inquiry-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .inquiry-form input, .inquiry-form select, .inquiry-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .inquiry-form .form-group {
+            margin-bottom: 20px;
+        }
+        .inquiry-form button {
+            background-color: red;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .inquiry-form button:hover {
+            background-color: darkred;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .col {
+            flex: 1;
+            padding: 0 10px;
+        }
+        .col-half {
+            flex: 0 0 50%;
+            padding: 0 10px;
+        }
+        .col-third {
+            flex: 0 0 33.3333%;
+            padding: 0 10px;
+        }
+    </style>
+
+                    <label for="course">Course</label>
+                    <select id="course" name="course" required>
+                        <option value="" disabled selected>--Select Course--</option>
+                        <option value="course1">BCA </option>
+                        <option value="course2">MCA</option>
+                        <option value="course3">MS-OFFICE</option>
+                        <option value="course1">BBA</option>
+                        <option value="course2">Advance-Excel</option>
+                        <option value="course3">CCC</option>
+                    </select>
+                </div></head>
+<body>
+
+    <div class="inquiry-form">
+        <h1> Addmission Enquiry Form :</h1>
+        <h2>Details</h2>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Full Name*" required>
+                </div>
+                <div class="col">
+                <div class="col">
+                    <label for="branch">Branch</label>
+                    <select id="branch" name="branch" required>
+                        <option value="" disabled selected>--Select Branch--</option>
+                        <option value="branch1">Gorakhpur Civil Line Branch</option>
+                        <option value="branch2">Gorkhnath Branch</option>
+                        <option value="branch3">Maharaganj Branch</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="organization">How did you find out about our organization?</label>
+                    <select id="organization" name="organization" required>
+                        <option value="" disabled selected>Select Option</option>
+                        <option value="option1">Friend</option>
+                        <option value="option2">Social Media</option>
+                        <option value="option3">Website</option>
+                        <option value="option1">By School</option>
+                        <option value="option2">Other</option>
+                        
+                    </select>
+                </div>
+                <div class="col">
+                    <label for="date">Date</label>
+                    <input type="tel" id="mobile" name="mobile" placeholder="Today Date" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="mobile">Mobile No</label>
+                    <input type="tel" id="mobile" name="mobile" placeholder="Mobile No" required>
+                </div>
+                <div class="col">
+                    <label for="email">Email Id</label>
+                    <input type="email" id="email" name="email" placeholder="Email Id" required>
+                </div>
+                <div class="col">
+                    <label for="whatsapp">Whatsapp No</label>
+                    <input type="tel" id="whatsapp" name="whatsapp" placeholder="Whatsapp No">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="address">Full Address</label>
+                    <textarea id="address" name="address" placeholder="Enter Full Address*" rows="4" required></textarea>
+                </div>
+            </div>
+            <button type="submit">Submit Now</button>
+        </form>
+    </div>
+
+</body>
+</html>

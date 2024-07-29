@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminar Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .registration-form {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 600px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .registration-form h1 {
+            text-align: center;
+            color: red;
+        }
+        .registration-form h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .registration-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .registration-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .registration-form .form-group {
+            margin-bottom: 20px;
+        }
+        .registration-form button {
+            background-color: red;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .registration-form button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="registration-form">
+        <h1>Seminar Registration Form</h1>
+        <h2>Fill Details :</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter Full Name" required>
+            </div>
+            <div class="form-group">
+                <label for="course">Course</label>
+                <input type="text" id="course" name="course" placeholder="Enter Course" required>
+            </div>
+            <div class="form-group">
+                <label for="interest-program">Interest Program</label>
+                <input type="text" id="interest-program" name="interest-program" placeholder="Enter Interest Program" required>
+            </div>
+            <div class="form-group">
+                <label for="year">Year</label>
+                <input type="text" id="year" name="year" placeholder="Year" required>
+            </div>
+            <div class="form-group">
+                <label for="school">School / College Name</label>
+                <input type="text" id="school" name="school" placeholder="Enter School / College Name" required>
+            </div>
+            <div class="form-group">
+                <label for="mobile">Mobile No</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="Mobile No" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Id</label>
+                <input type="email" id="email" name="email" placeholder="Email Id" required>
+            </div>
+            <div class="form-group">
+                <label for="whatsapp">Whatsapp No</label>
+                <input type="tel" id="whatsapp" name="whatsapp" placeholder="Whatsapp No">
+            </div>
+            <button type="submit">Submit Now</button>
+        </form>
+    </div>
+
+</body>
+</html>
